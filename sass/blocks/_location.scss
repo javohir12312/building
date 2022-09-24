@@ -1,0 +1,36 @@
+.location__img {
+  max-width: 100%;
+}
+
+.location {
+  background-image: url('../../img/location-bg.png');
+  background-size: 20px 120px;
+  background-position: calc(50% - 450px) 0;
+  background-repeat: no-repeat;
+}
+
+.location__heading {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 0px;
+  color: #000000;
+  margin-left: 40px;
+}
+
+.location__inner>h4 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.location__inner>p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}

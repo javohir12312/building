@@ -1,0 +1,144 @@
+.instruc__list {
+  max-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.instruc__inner>h2 {
+  text-align: right;
+  width: 330px;
+  padding-bottom: 40px;
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  margin-left: -40px;
+  padding-left: 20px;
+  box-shadow: -10px 0px 0px;
+}
+
+.instruc__item {
+  padding: 10px 0px;
+  transition: 0.3s ease;
+
+  a {
+    color: gray;
+  }
+}
+
+.instruc__item:hover {
+  box-shadow: 0px 2px 0px #E31E24;
+
+  a {
+    color: black;
+  }
+}
+
+.instruc__inner>p {
+  margin-left: 40px;
+}
+
+.instruc__list_bottom {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.instruc__item_bottom {
+  width: 250px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.instruc__item_bottom:nth-child(1)>p {
+  padding: 20px;
+  background-color: #E31E24;
+  margin: 0px;
+  margin-top: -5px;
+  color: white;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.instruc__item_bottom:nth-child(2)>p {
+  padding: 20px;
+  background-color: gray;
+  margin: 0px;
+  margin-top: -5px;
+  color: white;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.instruc__item_bottom:nth-child(3)>p {
+  padding: 20px;
+  background-color: #E31E24;
+  margin: 0px;
+  margin-top: -5px;
+  color: white;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.instruc__item_bottom:nth-child(4)>p {
+  padding: 20px;
+  background-color: gray;
+  margin: 0px;
+  margin: 0px;
+  color: white;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.instruc__item_bottom:nth-child(5)>p {
+  padding: 20px;
+  background-color: #E31E24;
+  margin: 0px;
+  margin-top: -5px;
+  color: white;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.instruc__item_bottom:nth-child(6)>p {
+  padding: 20px;
+  background-color: gray;
+  margin-top: -5px;
+  color: white;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,32 @@
+.inp__inner{
+  margin-top: 50px;
+  h3{
+    font-size: 20px;
+  }
+  div{
+    border: 1px solid gray;
+    padding: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    label>h5{
+      margin: 0px;
+    }
+    label{
+      input{
+        width: 250px;
+        margin-right: 5px;
+        height: 30px;
+      }
+    }
+  }
+}
+
+.inp__button{
+  background-color: #E31E24;
+  padding: 5px 10px;
+  border: #E31E24 1px solid;
+  color: white;
+  border-radius: 4px;
+}

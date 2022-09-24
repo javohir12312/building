@@ -1,0 +1,42 @@
+.time__inner{
+  margin-top: 50px;
+}
+
+.time_list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.time__inner>h2{
+  margin-left: 40px;
+  padding: 20px 30px;
+  box-shadow: -10px 0px 0px gray;
+}
+
+.time__item{
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: gray;
+  transition: 0.3s ease;
+}
+
+.time__item>div>p{
+  color: white;
+}
+
+
+.time__item:hover{
+  background: #E31E24;
+  color: white;
+}
+
+.time__item>div>h5 , p{
+  margin: 5px;
+}
+
+.time__item>img{
+  width: 59px;
+  height: 59px;
+}

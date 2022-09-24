@@ -1,0 +1,84 @@
+.tip__list {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.tip__item {
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  transition: 0.4s;
+}
+
+.tip__item:hover {
+  border-bottom: 2px solid #E31E24;
+}
+
+.tip__item>a {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.tip__content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tip__content_list {
+  width: 40%;
+}
+
+.tip__content_item {
+  width: 220px;
+}
+
+.tip__content_item>a>h3 {
+  margin: 0px;
+}
+
+.tip__content_item>a {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tip__content_item {
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.tip__buton>button {
+  padding: 8px 40px;
+  background-color: #E31E24;
+  border: 2px solid #E31E24;
+  border-radius: 4px;
+  color: white;
+  margin-top: 30px;
+  transition: 0.3s;
+}
+
+.tip__buton>button:hover {
+  background-color: #fff;
+  color: #E31E24;
+}
+
+.galery__inner {
+  h3 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    margin-left: 30px;
+  }
+}
